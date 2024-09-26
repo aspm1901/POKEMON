@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#gameArea {
+  width: 100vw;
+  height: 100vh;
+  background-color: lightblue;
+  position: relative;
+}
+
+#gifPokemon {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../gif/rizyox.gif");
+  background-size: cover;
+  border: none;
+  cursor: pointer;
+}
